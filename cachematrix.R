@@ -2,9 +2,9 @@
 makeMatrix <- function(x = matrix()) {
         ## Send a warning message if "x" is not square matrix 
         if(ncol(x)!=nrow(x)) {stop("The matrix is not square")}
-        ## * setmatrix      set the value of a matrix
-        ## * getmatrix      get the value of a matrix
-        ## * cacheInverse   get the cached value (inverse of the matrix)
+        ## * setmatrix      set the value of a matrix,
+        ## * getmatrix      get the value of a matrix,
+        ## * cacheInverse   get the cached value (inverse of the matrix),
         ## * getInverse     get the cached value (inverse of the matrix)     
         m <- NULL
         setmatrix <- function(y) {
